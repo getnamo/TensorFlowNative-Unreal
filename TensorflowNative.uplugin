@@ -1,0 +1,23 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "0.1.0",
+	"FriendlyName": "TensorflowNative",
+	"Description": "Tensorflow Plugin for Unreal Engine using C API for inference focus.",
+	"Category": "Machine Learning",
+	"CreatedBy": "getnamo",
+	"CreatedByURL": "http://www.getnamo.com",
+	"DocsURL": "https://github.com/getnamo/tensorflow-native-ue4",
+	"MarketplaceURL": "",
+	"SupportURL": "https://github.com/getnamo/tensorflow-native-ue4/issues",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "TensorflowNative",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	]
+}
