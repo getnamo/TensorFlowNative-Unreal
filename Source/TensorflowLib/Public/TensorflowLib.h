@@ -5,7 +5,7 @@
 #include "CoreMinimal.h"
 #include "Modules/ModuleManager.h"
 
-class FTensorflowLibModule : public IModuleInterface
+class TENSORFLOWLIB_API FTensorflowLibModule : public IModuleInterface
 {
 public:
 

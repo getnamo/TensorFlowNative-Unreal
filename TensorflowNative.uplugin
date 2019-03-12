@@ -18,6 +18,11 @@
 			"Name": "TensorflowNative",
 			"Type": "Runtime",
 			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "TensorflowLib",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
 		}
 	]
 }
