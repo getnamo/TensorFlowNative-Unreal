@@ -9,7 +9,7 @@ void FTensorflowLibModule::StartupModule()
 {
 	// This code will execute after your module is loaded into memory; the exact timing is specified in the .uplugin file per-module
 
-	UE_LOG(LogTemp, Log, TEXT("Loaded Tensorflow, version %s"), *FString(TF_Version()));
+	UE_LOG(LogTemp, Log, TEXT("Loaded TensorflowLib, version %s"), *FString(TF_Version()));
 }
 
 void FTensorflowLibModule::ShutdownModule()
