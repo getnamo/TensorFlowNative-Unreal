@@ -12,6 +12,7 @@ Loads and [can use c_api directly](https://github.com/getnamo/tensorflow-native-
 Should be fairly easy to extend platform support to Linux, MacOS, and maybe even Android once a good workflow is implemented.
 
 Want full python api support? See https://github.com/getnamo/tensorflow-ue4/
+
 Want remote tensorflow? See https://github.com/getnamo/tensorflow-remote-ue4
 
 ## Todo
