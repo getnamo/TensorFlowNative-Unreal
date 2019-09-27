@@ -5,6 +5,8 @@
 #include "CoreMinimal.h"
 #include "Modules/ModuleManager.h"
 
+DECLARE_LOG_CATEGORY_EXTERN(TensorflowLog, Log, All);
+
 class TENSORFLOWLIB_API FTensorflowLibModule : public IModuleInterface
 {
 public:

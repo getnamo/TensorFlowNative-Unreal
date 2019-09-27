@@ -3,13 +3,15 @@
 #include "TensorflowLib.h"
 #include "TensorflowCApi.h"
 
+DEFINE_LOG_CATEGORY(TensorflowLog);
+
 #define LOCTEXT_NAMESPACE "FTensorflowNativeModule"
 
 void FTensorflowLibModule::StartupModule()
 {
 	// This code will execute after your module is loaded into memory; the exact timing is specified in the .uplugin file per-module
 
-	UE_LOG(LogTemp, Log, TEXT("Loaded TensorflowLib, version %s"), *FString(TF_Version()));
+	UE_LOG(TensorflowLog, Log, TEXT("Loaded TensorflowLib, version %s"), *FString(TF_Version()));
 }
 
 void FTensorflowLibModule::ShutdownModule()
