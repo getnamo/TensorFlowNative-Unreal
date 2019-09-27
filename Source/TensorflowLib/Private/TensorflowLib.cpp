@@ -20,4 +20,4 @@ void FTensorflowLibModule::ShutdownModule()
 
 #undef LOCTEXT_NAMESPACE
 	
-IMPLEMENT_MODULE(FTensorflowLibModule, TensorflowNative)
+IMPLEMENT_MODULE(FTensorflowLibModule, TensorflowLib)
