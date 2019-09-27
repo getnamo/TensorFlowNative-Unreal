@@ -1,7 +1,7 @@
 # tensorflow-native-ue4
 Tensorflow Plugin for Unreal Engine using C API for inference focus.
 
-## Plugin Variants
+## TensorFlow Plugin Variants
 
 Want to use tensorflow python api as an embedded instance? 
 
